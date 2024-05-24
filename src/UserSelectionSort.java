@@ -13,7 +13,6 @@ public class UserSelectionSort {
         int maxValue = 100;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
-
             int[] arr1 = UserDevice.generateRandomArray(maxSize,maxValue);
             int[] arr2 = UserDevice.copyArray(arr1);
             selectionSort(arr1);
